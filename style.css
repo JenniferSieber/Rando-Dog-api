@@ -12,7 +12,6 @@ body {
   font-size: 67.5%;
   display: flex;
   flex-direction: column;
-  /* background: rgb(170, 191, 219); */
 }
 
 header {
@@ -32,6 +31,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 button {
   all: unset;
 }
@@ -39,6 +39,7 @@ button {
 .btn {
   margin-bottom: 2rem;
 } 
+
 .btn button {
   display: block;
   transition: ease-in-out;
