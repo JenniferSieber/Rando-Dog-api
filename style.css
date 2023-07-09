@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-size: 67.5%;
+  display: flex;
+  flex-direction: column;
+  /* background: rgb(170, 191, 219); */
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+main {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  all: unset;
+}
+
+.btn {
+  margin-bottom: 2rem;
+} 
+.btn button {
+  display: block;
+  transition: ease-in-out;
+  background: rgb(78, 78, 211);
+  border-radius: 50%;
+  box-shadow:  0 0 0 3px rgba(78, 78, 211, .5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: rgba(78, 78, 211, .5);
+}
+
+.btn button img {
+  width: 6rem;
+  margin: 1rem;
+  padding: .35rem;
+}
+
+section .img .img-section {
+  display: block;
+  width: 30rem;
+  height: 30rem;
+}
+
+.img-section img {
+  padding: .5rem;
+  max-width: 20rem;
+  max-height: 20rem;
+  background: purple;
+  /* box-shadow:  0 0 2px 0 rgba(78, 78, 211, .5); */
+  box-shadow: 2px 4px 4px 3px rgba(78, 78, 211, .5);
+}
